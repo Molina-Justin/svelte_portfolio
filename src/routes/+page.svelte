@@ -1,1 +1,5 @@
-<div class="bg-main text-main">justin</div>
+<script>
+	import Home from './components/Home.svelte';
+</script>
+
+<Home />
