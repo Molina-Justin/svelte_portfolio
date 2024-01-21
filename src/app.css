@@ -8,9 +8,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @layer utilities {
     .max_container {
-        @apply mx-auto max-w-[1440px];
+        @apply mx-auto max-w-[1000px];
     }
     .padding_container {
         @apply px-6 py-4 lg:px-20 3xl:px-0;
