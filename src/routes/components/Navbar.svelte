@@ -23,7 +23,7 @@
 
 <nav class="max_container padding_container flex_between">
 	<h1 class="text-lg font-medium">Justin Molina</h1>
-	<ul class="hidden md:flex text-title font-medium gap-6">
+	<ul class="hidden md:flex font-medium gap-6">
 		{#each NAV_LINKS as link}
 			<li>
 				<a href={link.href} class="hover:text-black">{link.label}</a>

@@ -20,9 +20,13 @@
 			<img src={memoji} alt="Memoji" class="max-h-48 max-w-48" />
 		</div>
 	</div>
-	<div class="flex-grow border">
+	<div class="flex flex-col">
 		<!-- And here -->
-		<h2>John Doe</h2>
+		<h1 class="font-bold text-title text-black">Justin Molina</h1>
+		<div class="flex items-center gap-4">
+			<div class="h-px w-[64px] bg-black"></div>
+			<h3 class="text-lg">Software Engineer</h3>
+		</div>
 		<span
 			>Hey there! I'm Justin, a recent graduate, Lorem ipsum dolor sit amet consectetur adipisicing
 			elit. Esse consequatur doloribus quo fugiat omnis quidem eaque numquam exercitationem sapiente

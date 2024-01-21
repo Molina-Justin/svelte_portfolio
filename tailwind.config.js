@@ -3,6 +3,9 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
+      fontSize:{
+        'title': '2.75rem'
+      },
       colors: {
         'main': "#fafafa",
       },
